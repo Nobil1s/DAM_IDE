@@ -7,9 +7,9 @@ public class EcuacionDeSegundoGrado {
 
     /**
      *
-     * @param a
-     * @param b
-     * @param c
+     * @param a coeficiente que acompaña x²
+     * @param b coeficiente que acompaña x
+     * @param c coeficiente independiente
      * @return si es resoluble o no
      */
     public static boolean esResoluble (double a, double b, double c) {
@@ -17,10 +17,10 @@ public class EcuacionDeSegundoGrado {
     }
     /**
      *
-     * @param a
-     * @param b
-     * @param c
-     * @return so es valor 1
+     * @param a coeficiente que acompaña x²
+     * @param b coeficiente que acompaña x
+     * @param c coeficiente independiente
+     * @return valor 1
      */
     public static double calcularx1 (double a, double b, double c) {
         return (-b + Math.sqrt(b * b - 4 * a * c)) / (2 * a);
@@ -28,10 +28,10 @@ public class EcuacionDeSegundoGrado {
 
     /**
      *
-     * @param a
-     * @param b
-     * @param c
-     * @return valor 21
+     * @param a coeficiente que acompaña x²
+     * @param b coeficiente que acompaña x
+     * @param c coeficiente independiente
+     * @return valor 2
      */
     public static double calcularx2 (double a, double b, double c) {
         return (-b - Math.sqrt(b * b - 4 * a * c)) / (2 * a);
