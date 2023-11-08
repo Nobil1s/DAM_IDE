@@ -1,5 +1,10 @@
 import java.util.Scanner;
 
+/**
+ * clase que nos da las soluciones
+ * @author Daniel
+ * @version 1.0.0
+ */
 public class TestEcuacionDeSegundoGrado {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
